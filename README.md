@@ -1,5 +1,5 @@
 # DeCorr
-[KDD 2022] Implementation of ["Feature Overcorrelation in Deep Graph Neural Networks: A New Perspective"]()
+[KDD 2022] Implementation of ["Feature Overcorrelation in Deep Graph Neural Networks: A New Perspective"](https://arxiv.org/abs/2206.07743)
 
 
 
@@ -17,7 +17,7 @@ Oversmoothing has been identified as one of the key issues which limit the perfo
 
 
 ## Cite
-For more information, you can take a look at the [paper]().
+For more information, you can take a look at the [paper](https://arxiv.org/abs/2206.07743).
 
 If you find this repo to be useful, please cite our paper. Thank you.
 ```
