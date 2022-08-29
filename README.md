@@ -3,7 +3,8 @@
 
 
 
-Code will be updated soon. Stay Tuned :)
+Code will be updated soon. Stay Tuned :) **If you cannot wait, feel free to directly email me (jinwei2@msu.edu).**
+
 
 
 
