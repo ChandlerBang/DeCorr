@@ -1,0 +1,253 @@
+bash: script/table1.sh: No such file or directory
+Using backend: pytorch
+WARNING:root:The OGB package is out of date. Your version is 1.2.3, while the latest version is 1.3.4.
+/mnt/home/jinwei2/anaconda3/envs/torch12/lib/python3.7/site-packages/dgl/base.py:45: DGLWarning: Detected an old version of PyTorch. Suggest using torch>=1.5.0 for the best experience.
+  return warnings.warn(message, category=category, stacklevel=1)
+Epoch: 00, train_acc: 0.1429, val_acc: 0.1220, test_acc:0.1300, corr:0.6086, sim:0.1092
+Epoch: 100, train_acc: 0.2643, val_acc: 0.2160, test_acc:0.2030, corr:0.5394, sim:0.4862
+Epoch: 200, train_acc: 0.4714, val_acc: 0.3700, test_acc:0.3920, corr:0.3796, sim:0.4945
+Epoch: 300, train_acc: 0.5143, val_acc: 0.3860, test_acc:0.3990, corr:0.3478, sim:0.5397
+Epoch: 400, train_acc: 0.7500, val_acc: 0.6820, test_acc:0.7030, corr:0.3058, sim:0.5799
+Epoch: 500, train_acc: 0.7714, val_acc: 0.6500, test_acc:0.6660, corr:0.3056, sim:0.6039
+Epoch: 600, train_acc: 0.8643, val_acc: 0.7100, test_acc:0.7130, corr:0.3082, sim:0.5944
+Epoch: 700, train_acc: 0.8571, val_acc: 0.7220, test_acc:0.7240, corr:0.3050, sim:0.6022
+Epoch: 800, train_acc: 0.8071, val_acc: 0.7000, test_acc:0.7060, corr:0.2720, sim:0.5808
+Epoch: 900, train_acc: 0.8571, val_acc: 0.6980, test_acc:0.6970, corr:0.2678, sim:0.6109
+load model:  GAT ./params/Cora/params_GAT_NoneL15M0S100LR0.01DP0.6.pth.tar
+val_acc: 0.7520, test_acc:0.7390
+[0.278179931640625, 0.278179931640625, 0.5969309210777283, 0.5969309210777283]
+Epoch: 00, train_acc: 0.1429, val_acc: 0.3160, test_acc:0.3190, corr:0.8098, sim:0.0476
+Epoch: 100, train_acc: 0.4929, val_acc: 0.4660, test_acc:0.4550, corr:0.3520, sim:0.5515
+Epoch: 200, train_acc: 0.4857, val_acc: 0.5800, test_acc:0.5710, corr:0.3918, sim:0.5090
+Epoch: 300, train_acc: 0.6643, val_acc: 0.6340, test_acc:0.6420, corr:0.3312, sim:0.5704
+Epoch: 400, train_acc: 0.7143, val_acc: 0.6520, test_acc:0.6510, corr:0.3222, sim:0.5671
+Epoch: 500, train_acc: 0.7786, val_acc: 0.6700, test_acc:0.6850, corr:0.3106, sim:0.5673
+Epoch: 600, train_acc: 0.8286, val_acc: 0.6740, test_acc:0.6830, corr:0.3361, sim:0.5846
+Epoch: 700, train_acc: 0.8071, val_acc: 0.6700, test_acc:0.7170, corr:0.3290, sim:0.5713
+Epoch: 800, train_acc: 0.8714, val_acc: 0.7100, test_acc:0.7110, corr:0.2925, sim:0.5868
+Epoch: 900, train_acc: 0.8786, val_acc: 0.6760, test_acc:0.6980, corr:0.3129, sim:0.5672
+load model:  GAT ./params/Cora/params_GAT_NoneL15M0S200LR0.01DP0.6.pth.tar
+val_acc: 0.7460, test_acc:0.7420
+[0.30411059061686196, 0.30411059061686196, 0.5817382335662842, 0.5817382335662842]
+Epoch: 00, train_acc: 0.1429, val_acc: 0.1220, test_acc:0.1300, corr:0.7022, sim:0.0771
+Epoch: 100, train_acc: 0.1429, val_acc: 0.1560, test_acc:0.1440, corr:0.6382, sim:0.2408
+Epoch: 200, train_acc: 0.3857, val_acc: 0.3160, test_acc:0.2990, corr:0.6153, sim:0.3654
+Epoch: 300, train_acc: 0.3071, val_acc: 0.3040, test_acc:0.3290, corr:0.5302, sim:0.3302
+Epoch: 400, train_acc: 0.3857, val_acc: 0.4060, test_acc:0.4190, corr:0.5362, sim:0.3848
+Epoch: 500, train_acc: 0.2429, val_acc: 0.3840, test_acc:0.3440, corr:0.4708, sim:0.4644
+Epoch: 600, train_acc: 0.2000, val_acc: 0.2460, test_acc:0.2310, corr:0.7112, sim:0.3326
+Epoch: 700, train_acc: 0.4214, val_acc: 0.3440, test_acc:0.3390, corr:0.5236, sim:0.4066
+Epoch: 800, train_acc: 0.3857, val_acc: 0.3060, test_acc:0.3070, corr:0.5245, sim:0.4024
+Epoch: 900, train_acc: 0.3500, val_acc: 0.4580, test_acc:0.4260, corr:0.4298, sim:0.2649
+load model:  GAT ./params/Cora/params_GAT_NoneL30M0S100LR0.01DP0.6.pth.tar
+val_acc: 0.5300, test_acc:0.5160
+[0.5174468994140625, 0.5174468994140625, 0.4543902277946472, 0.4543902277946472]
+Epoch: 00, train_acc: 0.1357, val_acc: 0.1280, test_acc:0.1250, corr:0.6016, sim:0.0821
+Epoch: 100, train_acc: 0.2429, val_acc: 0.2460, test_acc:0.2260, corr:0.5301, sim:0.4459
+Epoch: 200, train_acc: 0.4214, val_acc: 0.4260, test_acc:0.3970, corr:0.5557, sim:0.4221
+Epoch: 300, train_acc: 0.3714, val_acc: 0.3640, test_acc:0.3610, corr:0.5281, sim:0.4157
+Epoch: 400, train_acc: 0.3571, val_acc: 0.3920, test_acc:0.3590, corr:0.5062, sim:0.3589
+Epoch: 500, train_acc: 0.2929, val_acc: 0.2960, test_acc:0.2760, corr:0.5472, sim:0.3498
+Epoch: 600, train_acc: 0.2857, val_acc: 0.3360, test_acc:0.3040, corr:0.4818, sim:0.3944
+Epoch: 700, train_acc: 0.2571, val_acc: 0.2920, test_acc:0.2760, corr:0.4650, sim:0.2763
+Epoch: 800, train_acc: 0.2500, val_acc: 0.2860, test_acc:0.2790, corr:0.5929, sim:0.4192
+Epoch: 900, train_acc: 0.2214, val_acc: 0.2060, test_acc:0.2110, corr:0.4972, sim:0.2269
+load model:  GAT ./params/Cora/params_GAT_NoneL30M0S200LR0.01DP0.6.pth.tar
+val_acc: 0.5400, test_acc:0.5050
+[0.5165541966756185, 0.5165541966756185, 0.38103246688842773, 0.38103246688842773]
+experiment results of None applied in GATon dataset Cora with dropout 0.6, dropedge 0lr 0.01, alpha 1.0, beta 1.0
+number of layers:  [15, 30]
+test accuracies:  ['74.05 ± 0.15', '51.05 ± 0.55']
+Mean of corr_2, corr, sim_2, sim: [array([0.29114526, 0.29114526, 0.58933458, 0.58933458]), array([0.51700055, 0.51700055, 0.41771135, 0.41771135])]
+Using backend: pytorch
+WARNING:root:The OGB package is out of date. Your version is 1.2.3, while the latest version is 1.3.4.
+/mnt/home/jinwei2/anaconda3/envs/torch12/lib/python3.7/site-packages/dgl/base.py:45: DGLWarning: Detected an old version of PyTorch. Suggest using torch>=1.5.0 for the best experience.
+  return warnings.warn(message, category=category, stacklevel=1)
+Epoch: 00, train_acc: 0.1667, val_acc: 0.0540, test_acc:0.0760, corr:0.5218, sim:0.1491
+Epoch: 100, train_acc: 0.2167, val_acc: 0.3380, test_acc:0.2510, corr:0.3833, sim:0.5411
+Epoch: 200, train_acc: 0.3000, val_acc: 0.3700, test_acc:0.3050, corr:0.4108, sim:0.5650
+Epoch: 300, train_acc: 0.4833, val_acc: 0.4980, test_acc:0.5180, corr:0.3597, sim:0.5822
+Epoch: 400, train_acc: 0.5833, val_acc: 0.5560, test_acc:0.5470, corr:0.3713, sim:0.5645
+Epoch: 500, train_acc: 0.6083, val_acc: 0.5720, test_acc:0.6110, corr:0.3844, sim:0.5553
+Epoch: 600, train_acc: 0.6250, val_acc: 0.5820, test_acc:0.5990, corr:0.3807, sim:0.5515
+Epoch: 700, train_acc: 0.6333, val_acc: 0.5860, test_acc:0.6120, corr:0.3957, sim:0.5692
+Epoch: 800, train_acc: 0.6250, val_acc: 0.5700, test_acc:0.5770, corr:0.3682, sim:0.5963
+Epoch: 900, train_acc: 0.6000, val_acc: 0.5900, test_acc:0.5980, corr:0.3511, sim:0.5860
+load model:  GAT ./params/Citeseer/params_GAT_NoneL15M0S100LR0.01DP0.6.pth.tar
+val_acc: 0.6300, test_acc:0.6220
+[0.3141712824503581, 0.3141712824503581, 0.5971825122833252, 0.5971825122833252]
+Epoch: 00, train_acc: 0.1667, val_acc: 0.2320, test_acc:0.1810, corr:0.7185, sim:0.1030
+Epoch: 100, train_acc: 0.1750, val_acc: 0.2260, test_acc:0.2050, corr:0.6622, sim:0.4873
+Epoch: 200, train_acc: 0.4000, val_acc: 0.3960, test_acc:0.3620, corr:0.5340, sim:0.4775
+Epoch: 300, train_acc: 0.5250, val_acc: 0.4900, test_acc:0.4990, corr:0.4119, sim:0.5043
+Epoch: 400, train_acc: 0.6083, val_acc: 0.4960, test_acc:0.5430, corr:0.3148, sim:0.5529
+Epoch: 500, train_acc: 0.6500, val_acc: 0.5720, test_acc:0.5740, corr:0.2975, sim:0.5543
+Epoch: 600, train_acc: 0.6167, val_acc: 0.5740, test_acc:0.5730, corr:0.3656, sim:0.5647
+Epoch: 700, train_acc: 0.6333, val_acc: 0.5680, test_acc:0.5560, corr:0.2892, sim:0.5913
+Epoch: 800, train_acc: 0.6167, val_acc: 0.5260, test_acc:0.5710, corr:0.4350, sim:0.5439
+Epoch: 900, train_acc: 0.6667, val_acc: 0.5880, test_acc:0.5990, corr:0.4219, sim:0.5730
+load model:  GAT ./params/Citeseer/params_GAT_NoneL15M0S200LR0.01DP0.6.pth.tar
+val_acc: 0.6480, test_acc:0.6170
+[0.33177369435628257, 0.33177369435628257, 0.577007532119751, 0.577007532119751]
+Epoch: 00, train_acc: 0.1667, val_acc: 0.0580, test_acc:0.0770, corr:0.9973, sim:0.0061
+Epoch: 100, train_acc: 0.1667, val_acc: 0.2320, test_acc:0.1810, corr:0.5315, sim:0.4253
+Epoch: 200, train_acc: 0.3333, val_acc: 0.3960, test_acc:0.3640, corr:0.5355, sim:0.4202
+Epoch: 300, train_acc: 0.2333, val_acc: 0.2880, test_acc:0.2820, corr:0.4697, sim:0.4549
+Epoch: 400, train_acc: 0.1500, val_acc: 0.2640, test_acc:0.2530, corr:0.5503, sim:0.5104
+Epoch: 500, train_acc: 0.3083, val_acc: 0.3700, test_acc:0.3380, corr:0.5997, sim:0.5031
+Epoch: 600, train_acc: 0.2500, val_acc: 0.3060, test_acc:0.3160, corr:0.4880, sim:0.4470
+Epoch: 700, train_acc: 0.2833, val_acc: 0.3700, test_acc:0.3470, corr:0.5680, sim:0.4840
+Epoch: 800, train_acc: 0.2833, val_acc: 0.3320, test_acc:0.2920, corr:0.5109, sim:0.4030
+Epoch: 900, train_acc: 0.2583, val_acc: 0.3320, test_acc:0.2930, corr:0.5571, sim:0.4797
+load model:  GAT ./params/Citeseer/params_GAT_NoneL30M0S100LR0.01DP0.6.pth.tar
+val_acc: 0.4420, test_acc:0.3930
+[0.5905316670735677, 0.5905316670735677, 0.49650460481643677, 0.49650460481643677]
+Epoch: 00, train_acc: 0.1667, val_acc: 0.1900, test_acc:0.1730, corr:0.9690, sim:0.0221
+Epoch: 100, train_acc: 0.2167, val_acc: 0.2620, test_acc:0.2490, corr:0.7214, sim:0.2730
+Epoch: 200, train_acc: 0.3167, val_acc: 0.3480, test_acc:0.3010, corr:0.9824, sim:0.3307
+Epoch: 300, train_acc: 0.2750, val_acc: 0.3620, test_acc:0.3210, corr:0.5336, sim:0.4562
+Epoch: 400, train_acc: 0.2667, val_acc: 0.3000, test_acc:0.3020, corr:0.6463, sim:0.4237
+Epoch: 500, train_acc: 0.3167, val_acc: 0.3320, test_acc:0.3240, corr:0.7119, sim:0.4469
+Epoch: 600, train_acc: 0.3333, val_acc: 0.2740, test_acc:0.3060, corr:0.5368, sim:0.4591
+Epoch: 700, train_acc: 0.2750, val_acc: 0.2800, test_acc:0.2720, corr:0.6210, sim:0.3994
+Epoch: 800, train_acc: 0.2417, val_acc: 0.2820, test_acc:0.2710, corr:0.4211, sim:0.5449
+Epoch: 900, train_acc: 0.2667, val_acc: 0.2720, test_acc:0.2730, corr:0.3993, sim:0.5493
+load model:  GAT ./params/Citeseer/params_GAT_NoneL30M0S200LR0.01DP0.6.pth.tar
+val_acc: 0.4760, test_acc:0.4760
+[0.4242787043253581, 0.4242787043253581, 0.5376693606376648, 0.5376693606376648]
+experiment results of None applied in GATon dataset Citeseer with dropout 0.6, dropedge 0lr 0.01, alpha 1.0, beta 10.0
+number of layers:  [15, 30]
+test accuracies:  ['61.95 ± 0.25', '43.45 ± 4.15']
+Mean of corr_2, corr, sim_2, sim: [array([0.32297249, 0.32297249, 0.58709502, 0.58709502]), array([0.50740519, 0.50740519, 0.51708698, 0.51708698])]
+Using backend: pytorch
+WARNING:root:The OGB package is out of date. Your version is 1.2.3, while the latest version is 1.3.4.
+scripts/table1.sh: line 11: 193471 Killed                  python main.py --dataset=Pubmed --type_model=GAT --alpha=1 --beta=1 --dropout=0.6 --lr=0.01 --epoch=1000 --cuda_num=3
+Using backend: pytorch
+WARNING:root:The OGB package is out of date. Your version is 1.2.3, while the latest version is 1.3.4.
+scripts/table1.sh: line 12: 51860 Killed                  python main.py --dataset=CoauthorCS --type_model=GAT --alpha=1 --beta=1 --dropout=0.6 --lr=0.01 --epoch=1000 --cuda_num=3
+Using backend: pytorch
+WARNING:root:The OGB package is out of date. Your version is 1.2.3, while the latest version is 1.3.4.
+/mnt/home/jinwei2/anaconda3/envs/torch12/lib/python3.7/site-packages/dgl/base.py:45: DGLWarning: Detected an old version of PyTorch. Suggest using torch>=1.5.0 for the best experience.
+  return warnings.warn(message, category=category, stacklevel=1)
+Epoch: 00, train_acc: 0.1429, val_acc: 0.0580, test_acc:0.0640, corr:0.5441, sim:0.1656
+Epoch: 100, train_acc: 0.7571, val_acc: 0.5800, test_acc:0.5740, corr:0.1926, sim:0.5886
+Epoch: 200, train_acc: 0.9786, val_acc: 0.6680, test_acc:0.6930, corr:0.1280, sim:0.5800
+Epoch: 300, train_acc: 0.9929, val_acc: 0.6320, test_acc:0.6740, corr:0.1212, sim:0.6029
+Epoch: 400, train_acc: 1.0000, val_acc: 0.6640, test_acc:0.6890, corr:0.0907, sim:0.5882
+Epoch: 500, train_acc: 1.0000, val_acc: 0.6860, test_acc:0.7180, corr:0.1051, sim:0.5933
+Epoch: 600, train_acc: 1.0000, val_acc: 0.6180, test_acc:0.6620, corr:0.0869, sim:0.6083
+Epoch: 700, train_acc: 1.0000, val_acc: 0.6380, test_acc:0.6530, corr:0.1180, sim:0.5903
+Epoch: 800, train_acc: 1.0000, val_acc: 0.6940, test_acc:0.7020, corr:0.0896, sim:0.5970
+Epoch: 900, train_acc: 1.0000, val_acc: 0.6560, test_acc:0.6680, corr:0.0856, sim:0.5933
+load model:  Cheby ./params/Cora/params_Cheby_NoneL15M0S100LR0.01DP0.6.pth.tar
+val_acc: 0.7200, test_acc:0.7370
+[0.13728227615356445, 0.13728227615356445, 0.5773342251777649, 0.5773342251777649]
+Epoch: 00, train_acc: 0.1357, val_acc: 0.0860, test_acc:0.0800, corr:0.6096, sim:0.0708
+Epoch: 100, train_acc: 0.6571, val_acc: 0.4860, test_acc:0.4930, corr:0.2156, sim:0.6394
+Epoch: 200, train_acc: 0.9714, val_acc: 0.6740, test_acc:0.7000, corr:0.1576, sim:0.5704
+Epoch: 300, train_acc: 0.9786, val_acc: 0.6920, test_acc:0.7180, corr:0.1384, sim:0.5688
+Epoch: 400, train_acc: 0.9857, val_acc: 0.6800, test_acc:0.7120, corr:0.1174, sim:0.5919
+Epoch: 500, train_acc: 1.0000, val_acc: 0.6780, test_acc:0.7150, corr:0.0994, sim:0.6115
+Epoch: 600, train_acc: 1.0000, val_acc: 0.6540, test_acc:0.6970, corr:0.1149, sim:0.6081
+Epoch: 700, train_acc: 0.9929, val_acc: 0.7080, test_acc:0.7220, corr:0.1002, sim:0.5970
+Epoch: 800, train_acc: 1.0000, val_acc: 0.7080, test_acc:0.7140, corr:0.0853, sim:0.6020
+Epoch: 900, train_acc: 1.0000, val_acc: 0.6580, test_acc:0.6850, corr:0.0908, sim:0.6028
+load model:  Cheby ./params/Cora/params_Cheby_NoneL15M0S200LR0.01DP0.6.pth.tar
+val_acc: 0.7340, test_acc:0.7470
+[0.11981514294942221, 0.11981514294942221, 0.5825201869010925, 0.5825201869010925]
+Epoch: 00, train_acc: 0.1429, val_acc: 0.0640, test_acc:0.0680, corr:0.7709, sim:0.1025
+Epoch: 100, train_acc: 0.3143, val_acc: 0.3840, test_acc:0.3690, corr:0.2574, sim:0.5484
+Epoch: 200, train_acc: 0.7429, val_acc: 0.5360, test_acc:0.5250, corr:0.1467, sim:0.5585
+Epoch: 300, train_acc: 0.8286, val_acc: 0.5920, test_acc:0.6110, corr:0.1082, sim:0.5749
+Epoch: 400, train_acc: 0.9143, val_acc: 0.6260, test_acc:0.6370, corr:0.0978, sim:0.5663
+Epoch: 500, train_acc: 0.9286, val_acc: 0.5580, test_acc:0.5880, corr:0.1140, sim:0.5656
+Epoch: 600, train_acc: 0.9429, val_acc: 0.6620, test_acc:0.6480, corr:0.0864, sim:0.5639
+Epoch: 700, train_acc: 0.8714, val_acc: 0.5920, test_acc:0.6040, corr:0.1310, sim:0.5620
+Epoch: 800, train_acc: 0.9643, val_acc: 0.6620, test_acc:0.6650, corr:0.0861, sim:0.5851
+Epoch: 900, train_acc: 0.9857, val_acc: 0.6520, test_acc:0.6770, corr:0.0770, sim:0.5793
+load model:  Cheby ./params/Cora/params_Cheby_NoneL30M0S100LR0.01DP0.6.pth.tar
+val_acc: 0.7120, test_acc:0.6960
+[0.07171071370442708, 0.07171071370442708, 0.5882086753845215, 0.5882086753845215]
+Epoch: 00, train_acc: 0.1429, val_acc: 0.1140, test_acc:0.1030, corr:0.6817, sim:0.0635
+Epoch: 100, train_acc: 0.3643, val_acc: 0.2560, test_acc:0.2550, corr:0.2184, sim:0.4425
+Epoch: 200, train_acc: 0.6857, val_acc: 0.5400, test_acc:0.5310, corr:0.1483, sim:0.5821
+Epoch: 300, train_acc: 0.7714, val_acc: 0.5560, test_acc:0.6010, corr:0.1647, sim:0.5878
+Epoch: 400, train_acc: 0.8643, val_acc: 0.5800, test_acc:0.6050, corr:0.1205, sim:0.5568
+Epoch: 500, train_acc: 0.9000, val_acc: 0.5560, test_acc:0.6070, corr:0.1094, sim:0.5823
+Epoch: 600, train_acc: 0.9357, val_acc: 0.5660, test_acc:0.6030, corr:0.1407, sim:0.5784
+Epoch: 700, train_acc: 0.9500, val_acc: 0.6140, test_acc:0.6350, corr:0.0910, sim:0.5825
+Epoch: 800, train_acc: 0.9500, val_acc: 0.5940, test_acc:0.6230, corr:0.0778, sim:0.5746
+Epoch: 900, train_acc: 0.6643, val_acc: 0.4520, test_acc:0.4860, corr:0.1684, sim:0.5467
+load model:  Cheby ./params/Cora/params_Cheby_NoneL30M0S200LR0.01DP0.6.pth.tar
+val_acc: 0.6360, test_acc:0.6270
+[0.08407185872395834, 0.08407185872395834, 0.5757595300674438, 0.5757595300674438]
+experiment results of None applied in Chebyon dataset Cora with dropout 0.6, dropedge 0lr 0.01, alpha 1.0, beta 10.0
+number of layers:  [15, 30]
+test accuracies:  ['74.20 ± 0.50', '66.15 ± 3.45']
+Mean of corr_2, corr, sim_2, sim: [array([0.12854871, 0.12854871, 0.57992721, 0.57992721]), array([0.07789129, 0.07789129, 0.5819841 , 0.5819841 ])]
+Using backend: pytorch
+WARNING:root:The OGB package is out of date. Your version is 1.2.3, while the latest version is 1.3.4.
+/mnt/home/jinwei2/anaconda3/envs/torch12/lib/python3.7/site-packages/dgl/base.py:45: DGLWarning: Detected an old version of PyTorch. Suggest using torch>=1.5.0 for the best experience.
+  return warnings.warn(message, category=category, stacklevel=1)
+Epoch: 00, train_acc: 0.2000, val_acc: 0.1700, test_acc:0.1310, corr:0.5645, sim:0.1422
+Epoch: 100, train_acc: 0.7167, val_acc: 0.4840, test_acc:0.4630, corr:0.1725, sim:0.5678
+Epoch: 200, train_acc: 0.9250, val_acc: 0.5360, test_acc:0.5280, corr:0.1607, sim:0.4953
+Epoch: 300, train_acc: 0.9667, val_acc: 0.5520, test_acc:0.5520, corr:0.1230, sim:0.5484
+Epoch: 400, train_acc: 0.9667, val_acc: 0.5480, test_acc:0.5480, corr:0.1085, sim:0.5434
+Epoch: 500, train_acc: 0.9750, val_acc: 0.5280, test_acc:0.5370, corr:0.0949, sim:0.5755
+Epoch: 600, train_acc: 0.9750, val_acc: 0.5100, test_acc:0.5330, corr:0.0920, sim:0.5472
+Epoch: 700, train_acc: 0.9583, val_acc: 0.5080, test_acc:0.5140, corr:0.0950, sim:0.5649
+Epoch: 800, train_acc: 0.9917, val_acc: 0.5140, test_acc:0.5210, corr:0.0911, sim:0.5545
+Epoch: 900, train_acc: 0.9917, val_acc: 0.5060, test_acc:0.5230, corr:0.0774, sim:0.5684
+load model:  Cheby ./params/Citeseer/params_Cheby_NoneL15M0S100LR0.01DP0.6.pth.tar
+val_acc: 0.5860, test_acc:0.5870
+[0.13667758305867514, 0.13667758305867514, 0.5220286250114441, 0.5220286250114441]
+Epoch: 00, train_acc: 0.1750, val_acc: 0.1320, test_acc:0.1490, corr:0.5863, sim:0.1881
+Epoch: 100, train_acc: 0.4750, val_acc: 0.3320, test_acc:0.3170, corr:0.1399, sim:0.5109
+Epoch: 200, train_acc: 0.9250, val_acc: 0.5180, test_acc:0.5180, corr:0.1154, sim:0.5447
+Epoch: 300, train_acc: 0.9417, val_acc: 0.4920, test_acc:0.4640, corr:0.0991, sim:0.5680
+Epoch: 400, train_acc: 0.9833, val_acc: 0.4580, test_acc:0.4140, corr:0.0997, sim:0.5759
+Epoch: 500, train_acc: 0.9750, val_acc: 0.4600, test_acc:0.4380, corr:0.0975, sim:0.5850
+Epoch: 600, train_acc: 0.9917, val_acc: 0.4340, test_acc:0.4290, corr:0.0847, sim:0.6117
+Epoch: 700, train_acc: 0.9917, val_acc: 0.4340, test_acc:0.4150, corr:0.0723, sim:0.5931
+Epoch: 800, train_acc: 0.9917, val_acc: 0.4600, test_acc:0.4160, corr:0.0834, sim:0.5772
+Epoch: 900, train_acc: 1.0000, val_acc: 0.4160, test_acc:0.4130, corr:0.0857, sim:0.6027
+load model:  Cheby ./params/Citeseer/params_Cheby_NoneL15M0S200LR0.01DP0.6.pth.tar
+val_acc: 0.5360, test_acc:0.5180
+[0.12187135219573975, 0.12187135219573975, 0.5181393623352051, 0.5181393623352051]
+Epoch: 00, train_acc: 0.1667, val_acc: 0.1360, test_acc:0.1570, corr:0.7682, sim:0.0805
+Epoch: 100, train_acc: 0.3833, val_acc: 0.3560, test_acc:0.3200, corr:0.2081, sim:0.5116
+Epoch: 200, train_acc: 0.5667, val_acc: 0.4240, test_acc:0.3930, corr:0.1345, sim:0.4795
+Epoch: 300, train_acc: 0.6833, val_acc: 0.4520, test_acc:0.4230, corr:0.1335, sim:0.5048
+Epoch: 400, train_acc: 0.7250, val_acc: 0.4440, test_acc:0.4280, corr:0.0997, sim:0.5354
+Epoch: 500, train_acc: 0.8333, val_acc: 0.4440, test_acc:0.4320, corr:0.0952, sim:0.5528
+Epoch: 600, train_acc: 0.8083, val_acc: 0.4260, test_acc:0.4090, corr:0.1179, sim:0.5378
+Epoch: 700, train_acc: 0.7750, val_acc: 0.4720, test_acc:0.4820, corr:0.0889, sim:0.5700
+Epoch: 800, train_acc: 0.8333, val_acc: 0.4380, test_acc:0.4440, corr:0.0893, sim:0.5614
+Epoch: 900, train_acc: 0.8667, val_acc: 0.4300, test_acc:0.4390, corr:0.0732, sim:0.5732
+load model:  Cheby ./params/Citeseer/params_Cheby_NoneL30M0S100LR0.01DP0.6.pth.tar
+val_acc: 0.4960, test_acc:0.4780
+[0.0903345266977946, 0.0903345266977946, 0.5395657420158386, 0.5395657420158386]
+Epoch: 00, train_acc: 0.1667, val_acc: 0.2120, test_acc:0.2310, corr:0.6984, sim:0.0428
+Epoch: 100, train_acc: 0.4750, val_acc: 0.2480, test_acc:0.2420, corr:0.1635, sim:0.4763
+Epoch: 200, train_acc: 0.4583, val_acc: 0.3180, test_acc:0.2840, corr:0.1228, sim:0.5036
+Epoch: 300, train_acc: 0.6583, val_acc: 0.2940, test_acc:0.2820, corr:0.1044, sim:0.5289
+Epoch: 400, train_acc: 0.6500, val_acc: 0.3320, test_acc:0.3060, corr:0.0970, sim:0.5481
+Epoch: 500, train_acc: 0.8250, val_acc: 0.3380, test_acc:0.3140, corr:0.0725, sim:0.5497
+Epoch: 600, train_acc: 0.8417, val_acc: 0.3420, test_acc:0.3000, corr:0.0915, sim:0.5639
+Epoch: 700, train_acc: 0.8167, val_acc: 0.3540, test_acc:0.3420, corr:0.1050, sim:0.5766
+Epoch: 800, train_acc: 0.8750, val_acc: 0.3460, test_acc:0.3650, corr:0.1025, sim:0.5620
+Epoch: 900, train_acc: 0.8000, val_acc: 0.3860, test_acc:0.3790, corr:0.0787, sim:0.5573
+load model:  Cheby ./params/Citeseer/params_Cheby_NoneL30M0S200LR0.01DP0.6.pth.tar
+val_acc: 0.4180, test_acc:0.3820
+[0.068503737449646, 0.068503737449646, 0.5755866765975952, 0.5755866765975952]
+experiment results of None applied in Chebyon dataset Citeseer with dropout 0.6, dropedge 0lr 0.01, alpha 1.0, beta 10.0
+number of layers:  [15, 30]
+test accuracies:  ['55.25 ± 3.45', '43.00 ± 4.80']
+Mean of corr_2, corr, sim_2, sim: [array([0.12927447, 0.12927447, 0.52008399, 0.52008399]), array([0.07941913, 0.07941913, 0.55757621, 0.55757621])]
+Using backend: pytorch
+WARNING:root:The OGB package is out of date. Your version is 1.2.3, while the latest version is 1.3.4.
+scripts/table1.sh: line 18: 266457 Killed                  python main.py --dataset=Pubmed --type_model=Cheby --alpha=1 --beta=10 --dropout=0.6 --lr=0.01 --epoch=1000 --cuda_num=3
+Using backend: pytorch
+WARNING:root:The OGB package is out of date. Your version is 1.2.3, while the latest version is 1.3.4.
+scripts/table1.sh: line 19: 138495 Killed                  python main.py --dataset=CoauthorCS --type_model=Cheby --alpha=1 --beta=10 --dropout=0.6 --lr=0.01 --epoch=1000 --cuda_num=3
