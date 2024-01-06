@@ -1,11 +1,8 @@
 import torch
 import os
 from models.GCN import GCN
-from models.simpleGCN import simpleGCN
 from models.GAT import GAT
-from models.deepGCN import DeepGCN
 from models.Cheby import Cheby
-from models.ResGCN import ResGCN
 from torch_geometric.datasets import Planetoid
 from torch_geometric.datasets import Coauthor, Amazon
 
